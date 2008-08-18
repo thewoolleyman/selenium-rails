@@ -1,0 +1,8 @@
+= Selenium Rails
+
+Copyright:: (c) 2008 Chad Woolley and others
+License::   MIT License
+
+Selenium Rails supports the use of Selenium RC with Ruby on Rails projects.
+
+For document on the Selenium project and Selenium RC, see the Selenium homepage: http://www.openqa.org/selenium
