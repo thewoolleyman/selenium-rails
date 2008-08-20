@@ -1,0 +1,7 @@
+require 'rubygems'
+require 'selenium'
+require 'test/unit'
+require 'selenium_rails/selenium_driver_manager'
+require 'selenium_rails/selenium_helper'
+require 'selenium_rails/selenium_test_case'
+require 'selenium_rails/servers_runner'
