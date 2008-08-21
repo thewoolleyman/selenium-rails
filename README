@@ -5,4 +5,11 @@ License::   MIT License
 
 Selenium Rails supports the use of Selenium RC with Ruby on Rails projects.
 
-For document on the Selenium project and Selenium RC, see the Selenium homepage: http://www.openqa.org/selenium
+= Instructions
+
+* gem install selenium-rake
+* Copy the file /lib/tasks/selenium_tasks.rake into your app's lib/tasks directory
+* Write some selenium tests under test/selenium.  For an example app, see http://github.com/pivotal/minimalenium
+* Run 'rake test:selenium'
+
+For documentation on the Selenium project and Selenium RC, see the Selenium homepage: http://www.openqa.org/selenium
