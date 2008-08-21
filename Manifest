@@ -6,4 +6,4 @@ lib/selenium_rails.rb
 lib/selenium-rails.rb
 lib/tasks/selenium_tasks.rake
 Manifest
-README
+README.txt
