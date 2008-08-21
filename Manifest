@@ -4,5 +4,6 @@ lib/selenium_rails/selenium_test_case.rb
 lib/selenium_rails/servers_runner.rb 
 lib/selenium_rails.rb
 lib/selenium-rails.rb
+lib/tasks/selenium_tasks.rake
 Manifest
 README
