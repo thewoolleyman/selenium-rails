@@ -7,7 +7,7 @@ Selenium Rails supports the use of Selenium RC with Ruby on Rails projects.
 
 = Instructions
 
-* gem install selenium-rake
+* gem install selenium-rails
 * Copy the file /lib/tasks/selenium_tasks.rake into your app's lib/tasks directory
 * Write some selenium tests under test/selenium.  For an example app, see http://github.com/pivotal/minimalenium
 * 'rake test:selenium' to run all selenium tests
