@@ -1,9 +1,10 @@
+lib/selenium_rails/adapters/test_unit.rb
 lib/selenium_rails/selenium_driver_manager.rb
 lib/selenium_rails/selenium_helper.rb
 lib/selenium_rails/selenium_test_case.rb
 lib/selenium_rails/servers_runner.rb 
+lib/selenium_rails/tasks/selenium_tasks.rake 
 lib/selenium_rails.rb
-lib/selenium-rails.rb
 lib/tasks/selenium_tasks.rake
 Manifest
 README.txt
