@@ -17,7 +17,7 @@ module SeleniumRails
     end
     
     def self.start_servers
-      @@rails_server_process = IO.popen("ruby #{RAILS_ROOT}/script/server --port=3001 --environment=test")
+      @@rails_server_process = IO.popen("mongrel_rails start --chdir=#{RAILS_ROOT} --port=3001 --environment=test")
       @@selenium_server = Selenium::SeleniumServer.new
       unless @@selenium_server.running?
         IO.popen("selenium")
