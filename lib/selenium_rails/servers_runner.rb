@@ -7,7 +7,7 @@ module SeleniumRails
       begin
         start_servers
         yield
-        Selenium::SeleniumDriverManager.stop_driver
+        Selenium::SeleniumDriverManager.stop_drivers
       rescue Exception => e
         puts e
         raise e

@@ -1,7 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{selenium-rails}
-  s.version = "0.0.2"
-  # s.version = "0.0.2.#{Time.now.utc.strftime('%Y%m%d%H%M%S')}"
+  s.version = "0.0.3"
  
   s.specification_version = 2 if s.respond_to? :specification_version=
  
@@ -10,27 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2008-08-20}
   s.description = %q{Support for using Selenium RC with Rails}
   s.email = %q{thewoolleyman@gmail.com}
-  s.extra_rdoc_files = [
-    "lib/selenium_rails/adapters/test_unit.rb", 
-    "lib/selenium_rails/selenium_driver_manager.rb", 
-    "lib/selenium_rails/selenium_helper.rb", 
-    "lib/selenium_rails/selenium_test_case.rb", 
-    "lib/selenium_rails/servers_runner.rb", 
-    "lib/selenium_rails/tasks/selenium_tasks.rake", 
-    "lib/selenium_rails.rb", 
-    "README.txt"]
-  s.files = [
-    "lib/selenium_rails/adapters/test_unit.rb", 
-    "lib/selenium_rails/selenium_driver_manager.rb", 
-    "lib/selenium_rails/selenium_helper.rb", 
-    "lib/selenium_rails/selenium_test_case.rb", 
-    "lib/selenium_rails/servers_runner.rb", 
-    "lib/selenium_rails/tasks/selenium_tasks.rake", 
-    "lib/selenium_rails.rb", 
-    "lib/tasks/selenium_tasks.rake", 
-    "Manifest", 
-    "README.txt", 
-    "selenium-rails.gemspec"]
+  s.extra_rdoc_files = ["lib/selenium_rails/selenium_driver_manager.rb", "lib/selenium_rails/selenium_helper.rb", "lib/selenium_rails/selenium_test_case.rb", "lib/selenium_rails/servers_runner.rb", "lib/selenium_rails.rb", "lib/selenium-rails.rb", "README.txt"]
+  s.files = ["lib/selenium_rails/selenium_driver_manager.rb", "lib/selenium_rails/selenium_helper.rb", "lib/selenium_rails/selenium_test_case.rb", "lib/selenium_rails/servers_runner.rb", "lib/selenium_rails.rb", "lib/selenium-rails.rb", "lib/tasks/selenium_tasks.rake", "Manifest", "README.txt", "selenium-rails.gemspec"]
   s.has_rdoc = true
   s.homepage = %q{http://selenium-rails.rubyforge.org}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Selenium Rails", "--main", "README.txt"]
