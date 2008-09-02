@@ -1,2 +1,5 @@
 selenium-rails-*.gem
 thewoolleyman-selenium-rails-*.gem
+*.iml
+*.ipr
+*.iws
